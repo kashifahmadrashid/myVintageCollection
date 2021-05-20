@@ -4,3 +4,23 @@
     padding: 0px;
     
 }
+
+h1,h4{
+    text-align: center;
+    color: teal;
+    
+}
+
+.banner{
+    position: relative; 
+    width: 80%;
+    margin: 0 auto;
+}
+.banner img{
+    width: 100%;
+    
+}
+.availableCars{
+    display: flex;
+    justify-content: ;
+}
