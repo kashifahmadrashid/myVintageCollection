@@ -3,20 +3,31 @@
     margin: 0px;
     padding: 0px;
     
+    
 }
 
-h1,h4,h3{
+
+h4,h3{
     text-align: center;
     color: teal;
     
 }
+h1{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    color: teal;
 
+    
+}
 .banner{
     position: relative; 
     width: 80%;
     margin: 0 auto;
 }
 .banner img{
+   
     width: 100%;
     
 }
@@ -29,6 +40,9 @@ h1,h4,h3{
     margin-top: 5%;
 }
 
+.card img{
+    border-radius: 10%;
+}
 .enquiries{
     margin-top: 5%;
     
@@ -52,7 +66,25 @@ h1,h4,h3{
     
     text-align: center;
 }
+.address iframe{
+    margin-top: 3%;
+}
+.address p{
+    margin-top: 5%;
+}
 .footer{
     margin-top: auto;
     text-align: center;
 }
+.footer p{
+    font-size: large;
+    color: teal;
+}
+
+   
+  @media (max-width: 800px) {
+      #availableCars{
+          display: block;
+          float:none;
+      }
+    }
