@@ -5,7 +5,7 @@
     
 }
 
-h1,h4{
+h1,h4,h3{
     text-align: center;
     color: teal;
     
@@ -20,7 +20,39 @@ h1,h4{
     width: 100%;
     
 }
-.availableCars{
+#availableCars{
     display: flex;
-    justify-content: ;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.enquiries{
+    margin-top: 5%;
+    
+   
+}
+#enquiries{
+    margin-top: 5%;
+    margin-left: 10%;
+    
+    
+}
+#fullName, #email, #carModel, #floatingTextarea{
+    background-color: lightgray;
+}
+
+#contactAgent{
+    margin-top: 5%;
+   
+}
+.address{
+    
+    text-align: center;
+}
+.footer{
+    margin-top: auto;
+    text-align: center;
 }

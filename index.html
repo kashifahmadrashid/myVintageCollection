@@ -13,14 +13,17 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="./images/logo.jpg" alt="" width="30" height="24">
+                    <img src="./images/logo.jpg" alt="logoImage" width="30" height="24">
                 </a>
-                <a class="navbar-brand" href="#availableCars">Cars</a>
+                <a class="navbar-brand" href="#availableCars"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#availableCars">Cars</a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#enquiries">Enquiries</a>
                         </li>
@@ -33,8 +36,8 @@
         </nav>
         <div class="banner">
             <h1>My Vintage Cars For Hire</h1>
-            <img src="./images/banner.jpg" alt="bannerImage">
-            
+            <!-- <img src="./images/banner.jpg" alt="bannerImage">
+             -->
         </div>
         
     </header>
@@ -67,17 +70,19 @@
             <div class="card" style="width: 18rem;">
                 <img src="./images/mike-von-2q_adt4gWAI-unsplash.jpg" class="card-img-top" alt="Ferrari 195 Inter Coupe">
                 <div class="card-body">
-                  <p class="card-text">Ferrari 195 Inter Coupe <br>Beautiful restoration in spectacular colors <br> 200 km limit per day <br> Option to buy Insurance separately</p>
+                  <p class="card-text">Ferrari 195 Inter Coupe <br> Beautiful restoration in spectacular colors <br> 200 km limit per day <br> Option to buy Insurance separately</p>
                 </div>
             </div>
         </section>
-        <section id="enquiries">
-            <br><br><br>
+        <div class="enquiries">
             <h3>Enquiries</h3>
-            <br>
+        </div>
+        
+        <section id="enquiries">
+                       
             <form class="row g-3">
                 <div class="col-md-10">
-                  <label for="fullName" class="form-label">Full Name</label>
+                  <label for="fullName" class="form-label bg-lightgrey">Full Name</label>
                   <input type="name" class="form-control" id="fullName">
                 </div>
                 
@@ -86,8 +91,8 @@
                   <input type="email" class="form-control" id="email" placeholder="xyz@abc.com">
                 </div>
                 <div class="col-md-auto">
-                  <label for="inputState" class="form-label">Choose a Model</label>
-                  <select id="inputState" class="form-select">
+                  <label for="carModel" class="form-label">Choose a Model</label>
+                  <select id="carModel" class="form-select">
                     <option selected>Choose...</option>
                     <option value="carModel">Ferrari 330 GTC</option>
                     <option value="carModel">Ferrari 212 Europa Cabriolet</option>
@@ -106,8 +111,9 @@
         </section>
         <hr> <br>
         <section id="contactAgent">
+            
             <div class="address">
-                <h5>My Vintage Car Hire</h5>
+                <h4>My Vintage Car Hire</h4>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12606.9788140084!2d144.96829000926235!3d-37.819448403292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad646b5d2ba4df7%3A0x4045675218ccd90!2sMelbourne%20VIC!5e0!3m2!1sen!2sau!4v1621479516656!5m2!1sen!2sau" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 <p>Melbourne <br> Tel: +61123456789 | Email: info@myvintagecarhire.com</p>
             </div>
